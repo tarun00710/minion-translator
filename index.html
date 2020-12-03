@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minion-translator</title>
-    <link href="./index.css" rel="stylesheet">
-    <link href="./script.js" rel="script">    
+    <link href="index.css" rel="stylesheet">
 </head>
 <body>
     <div class="container box">
         <h1>Minion Translator</h1>
-        <textarea placeholder="Enter text to translate"></textarea>
-        <button class="btn"><strong>Translate my text	👇</strong></button>
+        <textarea id="txt-Input" class="txt-input" placeholder="Enter text to translate"></textarea>
+        <button id="btn-Translate"><strong>Translate my text	👇</strong></button>
         <div class="container_section">
             <img class="image" src="./images/Bob-Minion-Transparent-PNG.png">
-            <div class="output_section"></div>
-    </div>
-</div> 
+            <div id="outputDivison" class="output output_section"></div>
+         </div>
+    </div> 
+    <script src="script.js" type="text/javascript"></script>
 </body>
 </html>
