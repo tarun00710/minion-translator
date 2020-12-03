@@ -6,7 +6,7 @@ var outputDiv = document.querySelector("#outputDivison");
 var serverURL = "https://api.funtranslations.com/translate/fudd.json";
 
 function getTranslationURL(input){
-    return serverURL +"?"+"text"+ input;
+    return serverURL +"?"+"text="+ input;
 }
 
 function errorHandler(error){
