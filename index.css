@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
 body{
-    background-color:#ffea61;
+    background-color:#ffdd47;
     margin:0px;  
 }
 h1{
@@ -9,7 +9,7 @@ h1{
     color:#3A6F9A;
 }
 textarea{
-    border:2px solid rgb(255, 199, 58);
+    border:2px solid rgb(253, 192, 37);
 }
 #btn-Translate{
     padding:5px;
@@ -36,15 +36,15 @@ textarea{
     margin:5px;
 }
 .output_section{
-    border:3px solid  #ffcf57 ;
-    height:10vh;
+    border:3px solid  #ffc32a ;
+    height:20vh;
     margin-left:15px;
     width:75%;
     background-color: #fff;
 }
 .image{
-    width:30%;
+    width:40%;
 }
 .box{
-    box-shadow:-10px 10px 40px #f8ba1d;
+    box-shadow:-10px 10px 40px #cf9800f1;
 }
